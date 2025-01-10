@@ -1,0 +1,104 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.show {
+  width: 20rem;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  text-align: left;
+  position: relative;
+  .hover {
+    transform: rotate(30deg) scale(0.75);
+  }
+  .image {
+    display: flex;
+    min-height: 20rem;
+    img {
+      position: absolute;
+      width: 100%;
+      background-color: gold;
+    }
+    .ad {
+      z-index: 1;
+      position: absolute;
+      display: inline-block;
+      margin: 0.5rem;
+      background-color: white;
+      border-radius: 0.25rem;
+      font-weight: 900;
+      padding: 0.25rem;
+    }
+  }
+  .price {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 600;
+    div:first-child {
+      color: #ff3358;
+    }
+    div:last-child {
+      padding: 0 0.125rem;
+      color: #888;
+      font-size: 0.75rem;
+    }
+  }
+}
+
+.gugu {
+  display: flex;
+}
+.gugu > div {
+  margin: 0rem 0.5rem;
+  word-break: keep-all;
+  width: 5rem;
+}
+
+.blue {
+  color: blue;
+}
+
+.black {
+  color: black;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

@@ -1,0 +1,30 @@
+.memoContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 3rem 0.5rem 0.5rem;
+}
+.memoTitle {
+  width: 100%;
+  font-size: 1.75rem;
+  border: none;
+  font-weight: 800;
+  font-family: 'Noto Sans KR', serif;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+.memoContentContainer {
+  height: 100%;
+}
+.memoContentContainer #memoContent {
+  width: 100%;
+  box-sizing: border-box;
+  height: 100%;
+  font-weight: 300;
+  border: none;
+  resize: none;
+  font-family: 'Noto Sans KR', serif;
+  color: #333;
+}

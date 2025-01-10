@@ -1,0 +1,20 @@
+.sideBarFooter {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+.addMemo {
+  border-radius: 1rem;
+  background-color: white;
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  cursor: pointer;
+  color: goldenrod;
+  font-size: 1rem;
+  line-height: 0.875rem;
+}
+.addMemo:hover {
+  color: black;
+}
